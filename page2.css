@@ -1,0 +1,45 @@
+body {
+    background-color:black;
+}
+h {
+    font-size: 40px;
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+br2 {
+    color: blue;
+}
+
+input {
+    background-color:  #202124;
+    color: white;
+    font-size: 50px;
+}
+
+p {
+    text-align: right;
+    size: 40px;
+    
+}
+
+p2 {
+    color: white;
+    text-align: right;
+}
+
+a1 {
+    color: white;
+    text-align: right;
+    margin-right: 20px;
+}
+
+button {
+    background-color: white;
+    width:100px;
+    border-radius:10px;
+    height:30px;
+}

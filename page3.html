@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet"
+    href="page3.css">
+    <b>IF YOU LIKE MY WEB PAGE THEN DROP YOUR FEEDBACK IN THE FORM OF LIKE.</b>
+    ONLY YOU HAVE TO HIT THE LIKE BUTTON
+    OR YOU WANT MORE IMPROVMENT IN THIS OR ANY CHANGE YOU WANT TO SUGGEST ME YOU CAN.
+    <button id="clickBtn">LIKE </button>
+    <span id="count">0</span>
+
+    <script>
+        let count = 0;
+        document.getElementById('clickBtn').onclick = function() {
+            count++;
+            document.getElementById('count').textContent = count;
+        };
+    </script>
+</body> 
+</html>

@@ -1,0 +1,29 @@
+  body {
+    background-color: #202124;
+    text-align: center;
+    padding: 100px;
+  }
+
+  h { 
+    color: white;
+    font-size: 99px;
+    font-family: roboto, sans-serif;
+  }
+
+  input {
+    width:677px; 
+    border-radius:20px;
+    height:40px;
+    background-color: #202124;
+    font-family: Georgia, serif;
+    font-size: 18px;
+    color: white;
+  }
+
+  button {
+       width:150px;
+       border-radius:10px;
+       height:40px;
+       background-color: #202124;
+       color: white;
+  }
